@@ -131,9 +131,17 @@ header {
 }
 
 #sortedNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
-    width: 150px;
+    width: 170px;
     aspect-ratio: 1/1;
+}
+
+.active {
+    background-color: red;
 }
